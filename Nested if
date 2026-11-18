@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+int ticket;
+  int age;
+ printf("enter your age\n");
+  scanf("%d",&age);
+  printf("enter number of members\n");
+  scanf("%d",&ticket);
+  if(ticket >= 1)
+  {
+    if(age>=18)
+    {
+      printf("Allow to Theater\n");
+    }
+    else{
+      printf("Not allowed due to AGE\n");
+    }
+  }
+  else{
+    printf("not allowed\n");
+  }
+}
