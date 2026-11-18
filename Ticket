@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+int ticket;
+    printf("how many members\n");
+    scanf("%d",&ticket);
+    
+    if(ticket >= 1)
+    {
+        printf("Allow theather.....");
+    }
+    else{
+        printf("Not allowed\n");
+    }
+
+    
+    
+    
+    return 0;
+}
